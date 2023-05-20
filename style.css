@@ -1,0 +1,52 @@
+    /*catalogue test */ 
+    .carousel {
+        width: 800px; /* Ajustez la largeur du carrousel selon vos besoins */
+        overflow: hidden;
+        position: relative;
+      }
+      
+      .carousel-container {
+        width: 100%;
+        display: flex;
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .carousel-track {
+        display: flex;
+      }
+      
+      .carousel img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .carousel-prev,
+      .carousel-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        cursor: pointer;
+      }
+      
+      .carousel-prev {
+        left: 10px;
+      }
+      
+      .carousel-next {
+        right: 10px;
+      }
+      
+    
+      
+      
+      /* Styles CSS pour le footer */
+      .footer {
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+      } 
